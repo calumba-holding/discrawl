@@ -5,6 +5,7 @@
 ### Fixes
 
 - Stop guild and archived-thread pagination with a cursor error when Discord repeats a page instead of hanging sync. Thanks @SebTardif.
+- Reject repeated or missing message-page cursors without losing the last usable backfill checkpoint. Thanks @SebTardif.
 
 ### Maintenance
 
